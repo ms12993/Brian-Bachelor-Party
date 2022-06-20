@@ -12,12 +12,15 @@ image = Image.open("./static/tampa.jpg")
 st.title("Brians Bachelor Party Hub")
 
 st.header("The Gang Goes to Tampa")
-
 st.image(image)
 
 days = (datetime.datetime(2022, 8, 24) - datetime.datetime.now()).days
 
-st.metric(label="Days Remaining", value=days, delta="-1")
+col1, col2, col3 = st.columns(3)
+col1.metric(label="Days Remaining", value=days, delta="-1")
+col2.metric("Beers to Delete", "900", "+69%")
+col3.metric("Strippers to Hug", "1", "+1")
+
 
 with st.expander("Activites", expanded=False):
     st.markdown("Golf ⛳ http://www.dunedingolfclub.com/")
