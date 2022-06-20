@@ -1,0 +1,17 @@
+[
+    {
+        "Item": "House",
+        "Total": "2000",
+        "Per Person": "250"
+    },
+    {
+        "Item": "Rental Cars",
+        "Total": "400",
+        "Per Person": "50"
+    },
+    {
+        "Item": "Flights",
+        "Total": "XXX",
+        "Per Person": "400"
+    }
+]

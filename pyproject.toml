@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "brian-bachelor-party"
+version = "0.1.0"
+description = ""
+authors = ["ms12993 <37820595+ms12993@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.10.0"
+pandas = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pylint = "^2.14.3"
+bandit = "^1.7.4"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
