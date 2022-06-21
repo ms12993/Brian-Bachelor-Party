@@ -33,7 +33,7 @@ col3.metric("Strippers to Hug", "1", "+1")
 
 with st.expander("Activites", expanded=False):
     st.markdown("Golf ⛳ http://www.dunedingolfclub.com/")
-    st.markdown("Party Boat ⛵ https://www.krakencycleboats.com/")
+    st.markdown("Boat ⛵ https://www.krakencycleboats.com/")
     st.markdown("Beach 🌊 https://www.clearwaterbeach.com/")
     st.markdown("Beer 🍻 https://beer.com/")
 
@@ -52,6 +52,7 @@ with st.expander("Cost Breakdown", expanded=False):
 
     st.markdown(f"**Total:** {total}")
     st.markdown("**Not including food/drink")
+    st.markdown("**No idea on flight prices, im not a flight guy")
 
 with st.expander("Flights"):
     st.markdown("**PHL ✈️ Tampa**: 8/25")
