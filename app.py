@@ -1,4 +1,5 @@
 """main streamlit app"""
+from numpy import float16
 import streamlit as st
 from PIL import Image
 import pandas as pd
@@ -38,9 +39,8 @@ with st.expander("House", expanded=False):
 
 with st.expander("Cost Breakdown", expanded=False):
     cost_df = pd.DataFrame(costs)
-    cost_df["Per Person"] = cost_df["Per Person"].astype(int)
     st.table(cost_df)
-    total = cost_df["Per Person"].sum()
+    total = cost_df["Per Person"].astype(float).sum()
     st.markdown(f"**Total:** {total}")
 
 with st.expander("Flights"):
