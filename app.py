@@ -9,6 +9,8 @@ import datetime
 with open("./static/costs.json", "rb") as f:
     costs = json.load(f)
 
+st.set_page_config(page_title="Bachelor Party", page_icon="🎉")
+
 image = Image.open("./static/tampa.jpg")
 st.title("Brians Bachelor Party Hub")
 
