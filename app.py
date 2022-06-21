@@ -44,7 +44,7 @@ with st.expander("Cost Breakdown", expanded=False):
     st.markdown(f"**Total:** {total}")
 
 with st.expander("Flights"):
-    st.markdown("**PHL ✈️ Tampa**: 8/24")
+    st.markdown("**PHL ✈️ Tampa**: 8/25")
     st.text("Look for an arrival around 2ish")
     st.markdown("**Tampa ✈️ PHL**: 8/28")
     st.text("Look for a departure around 11ish")
